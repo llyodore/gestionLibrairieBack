@@ -291,3 +291,16 @@
 2023-05-31 18:05:32,333 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
 2023-05-31 18:05:32,351 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
 2023-05-31 18:05:32,353 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/in-so-015/Documents/projetLibrairie/gestionLibrairie/src/test/resources
+2023-05-31 18:10:31,928 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-05-31 18:10:35,456 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.inti.library:gestionLibrairie:0.0.1-SNAPSHOT @ /home/in-so-015/Documents/projetLibrairie/gestionLibrairie/pom.xml.
+2023-05-31 18:10:39,329 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gestionLibrairie/src/main/java
+2023-05-31 18:10:39,329 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gestionLibrairie/src/main/resources
+2023-05-31 18:10:39,329 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gestionLibrairie/src/main/resources
+2023-05-31 18:10:39,329 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gestionLibrairie/src/test/java
+2023-05-31 18:10:39,743 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2023-05-31 18:10:40,443 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2023-05-31 18:10:40,463 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2023-05-31 18:10:40,465 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/in-so-015/Documents/projetLibrairie/gestionLibrairie/src/test/resources
+2023-05-31 18:10:49,684 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2023-05-31 18:10:49,692 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2023-05-31 18:10:49,693 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/in-so-015/Documents/projetLibrairie/gestionLibrairie/src/test/resources
