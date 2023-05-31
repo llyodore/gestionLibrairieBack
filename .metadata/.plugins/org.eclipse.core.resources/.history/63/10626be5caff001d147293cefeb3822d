@@ -1,0 +1,22 @@
+package com.inti.library.entities;
+
+import java.util.Date;
+
+import org.hibernate.annotations.GeneratorType;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="UTILISATEUR", schema="")
+
+public class Utilisateur {
+	@Id
+	@GeneratorType(strategy=GetGeneratedValue.GET)
+	private Long id;
+	private String nom;
+	private String prenom;
+	private String age;
+	private Date date;
+}

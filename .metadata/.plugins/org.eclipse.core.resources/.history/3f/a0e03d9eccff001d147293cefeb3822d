@@ -1,0 +1,14 @@
+package com.inti.library.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "ROLES", schema="gestion_librairie_db")
+public class Roles {
+	private Long idRole;
+	private String Libelle;
+	
+	
+
+}

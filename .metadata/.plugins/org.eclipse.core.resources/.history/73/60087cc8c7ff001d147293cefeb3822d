@@ -1,0 +1,5 @@
+package com.inti.library.entities;
+
+public class Utilisateur {
+
+}

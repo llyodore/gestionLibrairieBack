@@ -1,0 +1,10 @@
+package com.inti.library.entities;
+
+import java.util.Date;
+
+public class Utilisateur {
+	private String nom;
+	private String prenom;
+	private String age;
+	private Date date;
+}
