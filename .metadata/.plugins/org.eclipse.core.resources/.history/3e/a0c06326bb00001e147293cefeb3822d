@@ -1,0 +1,8 @@
+package com.inti.library.controller;
+
+public class Snippet {
+	public static void main(String[] args) {
+		gestion_librairie_db
+	}
+}
+

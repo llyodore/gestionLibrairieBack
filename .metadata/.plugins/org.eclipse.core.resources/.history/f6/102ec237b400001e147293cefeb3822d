@@ -1,0 +1,8 @@
+package com.inti.restController;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController // RestFul ws
+public class RoleController {
+
+}

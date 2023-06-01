@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;RoleController.java&apos; to &apos;gestionLibrairie/src/main/java/com.inti.library.controller&apos;&#x0A;- Original project: &apos;gestionUtilisateur&apos;&#x0A;- Destination element: &apos;gestionLibrairie/src/main/java/com.inti.library.controller&apos;&#x0A;- Original element: &apos;com.inti.restController.RoleController.java&apos;" description="Copy compilation unit" destination="=gestionLibrairie/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.inti.library.controller" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.inti.restController{RoleController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1685651449703" units="1" version="1.0"/>
+</session>

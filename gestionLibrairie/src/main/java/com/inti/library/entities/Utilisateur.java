@@ -1,5 +1,6 @@
 package com.inti.library.entities;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -15,9 +16,9 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="UTILISATEUR", schema="gestion_librairie_db")
+@Table(name = "UTILISATEUR", schema = "gestion_librairie_db")
 
-public class Utilisateur {
+public class Utilisateur implements Serializable{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -25,20 +26,22 @@ public class Utilisateur {
 	private String prenom;
 	private String age;
 	private Date date;
-	
-	@OneToMany(mappedBy = "utilisateur", cascade=CascadeType.ALL, orphanRemoval = true)
-	private List<Roles> roles = new ArrayList<>();
+	private Adresse adresse;
+
+	@OneToMany(mappedBy = "utilisateur", cascade = CascadeType.ALL, orphanRemoval = true)
+	private List<Role> roles = new ArrayList<>();
 
 	public Utilisateur() {
 		super();
 	}
 
-	public Utilisateur(String nom, String prenom, String age, Date date, List<Roles> roles) {
+	public Utilisateur(String nom, String prenom, String age, Date date, Adresse adresse, List<Role> roles) {
 		super();
 		this.nom = nom;
 		this.prenom = prenom;
 		this.age = age;
 		this.date = date;
+		this.adresse = adresse;
 		this.roles = roles;
 	}
 
@@ -82,22 +85,30 @@ public class Utilisateur {
 		this.date = date;
 	}
 
-	public List<Roles> getRoles() {
+	public Adresse getAdresse() {
+		return adresse;
+	}
+
+	public void setAdresse(Adresse adresse) {
+		this.adresse = adresse;
+	}
+
+	public List<Role> getRoles() {
 		return roles;
 	}
 
-	public void setRoles(List<Roles> roles) {
+	public void setRoles(List<Role> roles) {
 		this.roles = roles;
 	}
 
 	@Override
 	public String toString() {
 		return "Utilisateur [id=" + id + ", nom=" + nom + ", prenom=" + prenom + ", age=" + age + ", date=" + date
-				+ "]";
+				+ ", adresse=" + adresse + ", roles=" + roles + "]";
 	}
+
 	
 	
 	
-	
-	
+
 }

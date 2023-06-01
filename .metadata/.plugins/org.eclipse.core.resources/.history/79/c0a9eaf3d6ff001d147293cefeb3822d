@@ -1,0 +1,5 @@
+package com.inti.library.services.interfaces;
+
+public interface IRoleService {
+
+}

@@ -1,0 +1,5 @@
+package com.inti.library.repositories;
+
+public interface RoleRepository {
+
+}
