@@ -7,5 +7,5 @@ import com.inti.library.entities.Livre;
 
 @Repository
 public interface LivreRepository extends JpaRepository<Livre, Long>{
-	Livre findByNomLivre(String nomLivre);
+	Livre findById(String idLivre);
 }

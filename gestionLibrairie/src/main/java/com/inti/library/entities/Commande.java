@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 @Table(name="COMMANDES", schema="gestion_librairie_db")
 public class Commande implements Serializable{
 	private Date dateCommande;
-	private int qte_commande;
+	private int qteCommande;
 	
 	@ManyToOne
 	@JoinColumn(name="id_livre")
@@ -23,7 +23,7 @@ public class Commande implements Serializable{
 
 	public Commande(Date dateCommande, int qte_commande, Livre livre) {
 		this.dateCommande = dateCommande;
-		this.qte_commande = qte_commande;
+		this.qteCommande = qte_commande;
 		this.livre = livre;
 	}
 
@@ -35,12 +35,12 @@ public class Commande implements Serializable{
 		this.dateCommande = dateCommande;
 	}
 
-	public int getQte_commande() {
-		return qte_commande;
+	public int getQteCommande() {
+		return qteCommande;
 	}
 
-	public void setQte_commande(int qte_commande) {
-		this.qte_commande = qte_commande;
+	public void setQteCommande(int qte_commande) {
+		this.qteCommande = qte_commande;
 	}
 
 	public Livre getLivre() {
@@ -53,8 +53,10 @@ public class Commande implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Commande [dateCommande=" + dateCommande + ", qte_commande=" + qte_commande + ", livre=" + livre + "]";
+		return "Commande [dateCommande=" + dateCommande + ", qteCommande=" + qteCommande + ", livre=" + livre + "]";
 	}
+
+	
 	
 	
 }

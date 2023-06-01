@@ -36,7 +36,6 @@ public class Livre implements Serializable{
 	}
 
 	public Livre(Long iban, String nomLivre, float prix) {
-		super();
 		this.iban = iban;
 		this.nomLivre = nomLivre;
 		this.prix = prix;
@@ -45,7 +44,6 @@ public class Livre implements Serializable{
 	
 
 	public Livre(Long iban, String nomLivre, float prix, List<Commande> commandes, Stock stock) {
-		super();
 		this.iban = iban;
 		this.nomLivre = nomLivre;
 		this.prix = prix;

@@ -7,5 +7,5 @@ import com.inti.library.entities.Genre;
 
 @Repository
 public interface GenreRepository extends JpaRepository<Genre, Long>{
-	Genre findByNomGenre(String nomGenre);
+	Genre findById(String idGenre);
 }
