@@ -75,14 +75,12 @@ public class Livre implements Serializable{
 		this.prix = prix;
 	}
 
-	
-
-	public List<Commande> getCommandes() {
-		return commandes;
+	public Commande getCommande() {
+		return commande;
 	}
 
-	public void setCommandes(List<Commande> commandes) {
-		this.commandes = commandes;
+	public void setCommande(Commande commande) {
+		this.commande = commande;
 	}
 
 	public Stock getStock() {
